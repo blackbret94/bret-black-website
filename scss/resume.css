@@ -50,14 +50,14 @@ p.lead {
 
 .social-icons a {
   display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #495057;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
-  line-height: 3.5rem;
+  line-height: 2.5rem;
   margin-right: 1rem;
 }
 
@@ -75,6 +75,14 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
   color: #dc3545;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -144,8 +152,8 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
   max-width: 75rem;
 }
 

@@ -52,14 +52,14 @@ p.lead {
 .social-icons {
   a {
     display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: $gray-700;
     color: $white !important;
     border-radius: 100%;
     text-align: center;
     font-size: 1.5rem;
-    line-height: 3.5rem;
+    line-height: 2.5rem;
     margin-right: 1rem;
     &:last-child {
       margin-right: 0;
@@ -77,4 +77,12 @@ p.lead {
       color: $primary;
     }
   }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.text-justify {
+  text-align: justify;
 }
